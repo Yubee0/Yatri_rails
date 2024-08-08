@@ -1,0 +1,49 @@
+<div id="signupModal" class="modal">
+<div class="modal-content">
+    <form id="signup-form">
+        <span class="close">&times;</span>
+        <div class="loging">
+            <h1 id="title">Sign Up</h1>
+            <div class="input-group">
+                <div class="input-field" id="nameField">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="signupName" placeholder="Full Name">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="signupEmail" placeholder="Your Email">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="signupPassword" placeholder="Password">
+                </div>
+                <p>Lost Password? <a href="#">Click Here</a></p>
+            </div>
+            <div class="btn-field">
+                <button type="button" id="signupBtn">Sign Up</button>
+                <button type="button" class="disable" id="toggleLoginBtn">Log In</button>
+            </div>
+        </div>
+    </form>
+    <form id="login-form" style="display: none;">
+    <span class="close">&times;</span>
+    <div class="loging">
+        <h1 id="title">Log In</h1>
+        <div class="input-group">
+            <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="loginEmail" placeholder="Your Email">
+            </div>
+            <div class="input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="loginPassword" placeholder="Password">
+            </div>
+        </div>
+        <div class="btn-field">
+            <button type="button" id="loginBtn">Log In</button>
+            <button type="button" class="disable" id="toggleSignupBtn">Sign Up</button>
+        </div>
+    </div>
+</form>
+</div>
+</div>
